@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+.profile-card{
+    min-height: 300px;
+    min-width: 250px;
+    position: absolute;
+    background-color: cadetblue;
+}

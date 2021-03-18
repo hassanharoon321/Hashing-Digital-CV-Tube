@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+header {
+  display: flex;
+}
+
+.logo-image {
+  margin-right: 120px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar ul {
+  font-size: 12px;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-bar ul li {
+  padding-left: 30px;
+}
+
+.nav-bar ul li button {
+  font-size: 12px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border: 0;
+  padding: 5px;
+}
+
+.user-btn {
+  background-color: #7954c7;
+  color: #fff;
+}
+
+.premium-btn {
+  background-color: #fca120;
+  color: #fff;
+}
+
+.gem-icon {
+  margin-right: 5px;
+}
+
+.user-icon {
+  margin-right: 5px;
+}

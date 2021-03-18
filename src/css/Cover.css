@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cover-image-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-image {
+  text-align: center;
+  margin: auto;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  width: 1200px;
+  height: 300px;
+}
+
+.cover-search {
+  position: absolute;
+}
+
+h3 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.job-search {
+  width: 350px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 0;
+}
+
+.location-search {
+  width: 350px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-left: 1px solid #adadad;
+}
+
+.location-search::placeholder {
+  padding-left: 30px;
+  font-size: 10px;
+}
+
+.job-search::placeholder {
+  padding-left: 30px;
+  font-size: 10px;
+}
+
+.search-btn {
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  letter-spacing: 1.5px;
+  padding-bottom: 8px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 0;
+  font-weight: 600;
+  color: #fff;
+  background-color: #7954c7;
+  font-size: 8px;
+}
+
+.search-icon {
+  position: absolute;
+  color: #adadad;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.location-icon {
+  margin-top: 5px;
+  margin-left: 5px;
+  position: absolute;
+  color: #adadad;
+}
+
