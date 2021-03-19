@@ -15,7 +15,7 @@ function Cover() {
         <img src={coverImage} alt="cover" className="cover-image" />
         {/* Child Search Start */}
         <span className="cover-search">
-          <h3>Welcome Back, Wajahat!</h3>
+          <h3>Welcome back, Wajahat!</h3>
           <FontAwesomeIcon icon={faSearch} className="search-icon" />
           <input
             type="text"

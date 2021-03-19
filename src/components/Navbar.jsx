@@ -15,7 +15,7 @@ function NavBar() {
           <li>RECORD A CV</li>
           <li>
             <button className="user-btn">
-              <FontAwesomeIcon icon={faUser} className="user-icon" />
+              <FontAwesomeIcon icon={faUser} className="user-icon-1" />
               Wajahat
             </button>
           </li>

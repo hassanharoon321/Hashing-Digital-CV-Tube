@@ -12,7 +12,11 @@ header {
 }
 
 .logo-image {
-  margin-right: 120px;
+  margin-left: 50px;
+}
+
+.logo-image:hover {
+  cursor: pointer;
 }
 
 .nav-bar {
@@ -22,13 +26,23 @@ header {
 
 .nav-bar ul {
   font-size: 12px;
+  margin-left: 130px;
   display: flex;
   list-style: none;
   align-items: center;
 }
 
 .nav-bar ul li {
-  padding-left: 30px;
+  padding-left: 40px;
+}
+
+li:hover {
+  color: #7954c7;
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
 }
 
 .nav-bar ul li button {
@@ -56,6 +70,6 @@ header {
   margin-right: 5px;
 }
 
-.user-icon {
+.user-icon-1 {
   margin-right: 5px;
 }
