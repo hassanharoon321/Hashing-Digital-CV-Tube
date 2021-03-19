@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-tube{
+  height: 250px;
+  width: 100%;
+  background-color: #362658;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-seekers{
+  font-size: 12px;
+  margin-bottom: 200px;
+  margin-left: 600px;
+}
+
+.users{
+  font-size: 12px;
+}
+
+.table-cont{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 180px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.table-footer{
+  color: #fff;
+  text-align: left;
+}
+
+.txt-ali{
+  margin-left: 100px;
+}
+
+.tab-headings{
+  font-size: 12px;
+}
+
+.tab-txt{
+  font-size: 10px;
+}
+
