@@ -7,27 +7,35 @@
 .recent-jobs {
   height: 200px;
   width: 580px;
-  background-color: burlywood;
+  background-color: #fff;
   margin-top: 20px;
   margin-left: 525px;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;  
+}
+
+.jobs-heading-txt {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #707070;
 }
 
 .jobs-one {
   display: flex;
 }
 
-.jobs-two{
-    display: flex;
+.jobs-two {
+  display: flex;
 }
 
 .job-1 {
   height: 60px;
   width: 150px;
-  background-color: chartreuse;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -38,21 +46,22 @@
   padding-top: 5px;
 }
 .job-1 .company {
-  font-size: 10px;
+  font-size: 8px;
   padding-left: 5px;
 }
 .job-1 .location {
   padding-top: 5px;
   font-size: 10px;
   padding-left: 5px;
+  color: #707070;
 }
 
 .job-2 {
   height: 60px;
   width: 150px;
-  background-color: chartreuse;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -63,21 +72,22 @@
   padding-top: 5px;
 }
 .job-2 .company {
-  font-size: 10px;
+  font-size: 8px;
   padding-left: 5px;
 }
 .job-2 .location {
   padding-top: 5px;
   font-size: 10px;
   padding-left: 5px;
+  color: #707070;
 }
 
 .job-3 {
   height: 60px;
   width: 150px;
-  background-color: chartreuse;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -88,21 +98,22 @@
   padding-top: 5px;
 }
 .job-3 .company {
-  font-size: 10px;
+  font-size: 8px;
   padding-left: 5px;
 }
 .job-3 .location {
   padding-top: 5px;
   font-size: 10px;
   padding-left: 5px;
+  color: #707070;
 }
 
 .job-4 {
   height: 60px;
   width: 150px;
-  background-color: chartreuse;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -113,21 +124,22 @@
   padding-top: 5px;
 }
 .job-4 .company {
-  font-size: 10px;
+  font-size: 8px;
   padding-left: 5px;
 }
 .job-4 .location {
   padding-top: 5px;
   font-size: 10px;
   padding-left: 5px;
+  color: #707070;
 }
 
 .job-5 {
   height: 60px;
   width: 150px;
-  background-color: chartreuse;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -138,21 +150,22 @@
   padding-top: 5px;
 }
 .job-5 .company {
-  font-size: 10px;
+  font-size: 8px;
   padding-left: 5px;
 }
 .job-5 .location {
   padding-top: 5px;
   font-size: 10px;
   padding-left: 5px;
+  color: #707070;
 }
 
 .job-6 {
   height: 60px;
   width: 150px;
-  background-color: chartreuse;
+  background-color: #fff;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px #f2f2f2;
+  box-shadow: 0 0 5px 5px #f2f2f2;
   margin-left: 20px;
   margin-top: 10px;
 }
@@ -163,20 +176,27 @@
   padding-top: 5px;
 }
 .job-6 .company {
-  font-size: 10px;
+  font-size: 8px;
   padding-left: 5px;
 }
 .job-6 .location {
   padding-top: 5px;
   font-size: 10px;
   padding-left: 5px;
+  color: #707070;
 }
 
-.view-more{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 10px;
-    margin-right: 20px;
-    font-size: 12px;
-    color: #7954c7;
+.view-more {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+  margin-right: 20px;
+  font-size: 12px;
+  color: #7954c7;
 }
+
+.loc-icon-loc{
+  margin-right: 3px;
+}
+
+/* box-shadow: 2px 2px 10px 2px */

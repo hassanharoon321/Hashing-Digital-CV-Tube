@@ -89,20 +89,23 @@ h3 {
   color: #adadad;
 }
 
+/* Profile Card start */
+
 .profile-card {
   position: absolute;
-  margin-top: 500px;
+  margin-top: 440px;
   margin-right: 600px;
   width: 250px;
-  height: 300px;
+  height: 270px;
   background-color: #fff;
   box-shadow: 5px 5px 5px #f2f2f2;
   border-radius: 20px;
 }
 
-
 .profile-completed {
   font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 .description {
@@ -129,6 +132,17 @@ h3 {
   margin-top: 8px;
 }
 
+.current-user-name {
+  margin-top: 3px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.profession {
+  font-size: 11px;
+  color: #969696;
+}
+
 .completed-updated {
   display: flex;
   justify-content: flex-start;
@@ -139,19 +153,50 @@ h3 {
   margin-top: 10px;
   margin-left: 20px;
   color: #7954c7;
+  font-size: 32px;
+  font-family: sans-serif;
 }
 
 .updated-today {
   font-size: 8px;
-  margin-left: 45px;
+  margin-left: 38px;
+  color: #969696;
+}
+
+progress {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+progress::-webkit-progress-bar {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+progress::-webkit-progress-value {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: red;
+}
+progress::-moz-progress-bar {
+  border: 0;
+  height: 5px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
 }
 
 .profile-progress {
   margin-left: 20px;
+  margin-bottom: 10px;
   width: 200px;
+  height: 5px;
+  border-radius: 50%;
 }
+
 .complete-profile-now {
-  margin-top: 10px;
   margin-left: 20px;
   height: 50px;
   width: 200px;
@@ -161,36 +206,38 @@ h3 {
 
 .comp-prof {
   font-size: 12px;
-  padding: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  font-size: 10px;
 }
 
 .oppo {
-  font-size: 8px;
+  padding-left: 10px;
+  font-size: 7px;
   line-height: 1.6;
-  padding: 5px;
-  margin-top: -7px;
 }
 
 .prof-imp {
-  margin-left: 20px;
-  margin-top: 10px;
+  margin-left: 30px;
+  margin-top: 5px;
+  font-size: 10px;
 }
 
 .prof-search {
-  margin-left: 20px;
-  font-size: 8px;
-  margin-top: -5px;
+  margin-left: 30px;
+  font-size: 7px;
 }
 
-.count{
+.count {
   display: flex;
 }
 .search-apperances {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 32px;
   height: 20px;
   width: 90px;
-  background-color: #adadad;
+  background-color: #f8f8f8;
+  color: black;
   font-size: 8px;
   border-radius: 5px;
   display: flex;
@@ -200,10 +247,11 @@ h3 {
 
 .clicks-on-profile {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 5px;
   height: 20px;
   width: 90px;
-  background-color: #adadad;
+  background-color: #f8f8f8;
+  color: black;
   font-size: 8px;
   border-radius: 5px;
   display: flex;
@@ -211,9 +259,14 @@ h3 {
   align-items: center;
 }
 
+/* Profile Card end */
+
+
+/* Job Alert Start */
+
 .job-alert {
   position: absolute;
-  margin-top: 280px;
+  margin-top: 250px;
   margin-left: 400px;
   width: 600px;
   height: 80px;
@@ -222,19 +275,19 @@ h3 {
   border-radius: 20px;
   display: flex;
 }
-.specific-job{
+.specific-job {
+  font-family: sans-serif;
+  font-size: 16px;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
-.suitable-job{
+.suitable-job {
   margin-left: 20px;
-  padding-top: -5px;
   font-size: 10px;
 }
 
-.job-alert-btn{
-  display: flex;
+.job-alert-btn {
   margin-top: 25px;
   margin-left: 30px;
   padding-left: 15px;
@@ -242,8 +295,12 @@ h3 {
   padding-top: 8px;
   padding-bottom: 8px;
   height: 30px;
+  font-family: sans-serif;
   border-radius: 5px;
   border: 0;
   color: #fff;
   background-color: #7954c7;
 }
+
+
+/* Job Alert end */

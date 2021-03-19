@@ -41,8 +41,8 @@ function Cover() {
               <FontAwesomeIcon icon={faUser} className="user-fontawesome" />
             </section>
             <section className="description-text">
-              <h4>Mohammad Wajahad</h4>
-              <small className="profession">Graphics Designer</small>
+              <h4 className="current-user-name">Mohammad Wajahad</h4>
+              <p className="profession">Graphics Designer</p>
             </section>
           </section>
           <section className="completed-updated">
@@ -58,7 +58,7 @@ function Cover() {
           ></progress>
 
           <section className="complete-profile-now">
-            <h5 className="comp-prof">Complete Your Profile Now</h5>
+            <h5 className="comp-prof">Complete your profile now!</h5>
             <p className="oppo">
               You are missing out Opportounities Complete Your Profile will make
               it easier to show up in search
@@ -66,9 +66,9 @@ function Cover() {
           </section>
 
           <h5 className="prof-imp">Profile Impression</h5>
-          <small className="prof-search">
+          <p className="prof-search">
             Number of times your Profile Showed up on search
-          </small>
+          </p>
 
           <span className="count">
             <section className="search-apperances">
@@ -85,11 +85,11 @@ function Cover() {
         {/* Job Alert Start */}
         <span className="job-alert">
           <section>
-            <h2 className="specific-job">Looking for a Specific Job?</h2>
-            <small className="suitable-job">
+            <h2 className="specific-job">Looking for a specific job?</h2>
+            <p className="suitable-job">
               Create a Job Alert! We will notify you whenever there is a new job
-              that is suitable for you
-            </small>
+              that is suitable for you.
+            </p>
           </section>
           <button className="job-alert-btn">Create a Job Alert</button>
         </span>
